@@ -1,4 +1,4 @@
-# Setup: pacman -S risc-v
+# Setup: pacman -S risc-v qemu qemu-arch-extra
 # Compile: riscv64-linux-gnu-gcc -nostdlib HelloWorld.S -o HelloWorld
 # Execute: qemu-riscv64 HelloWorld
 
